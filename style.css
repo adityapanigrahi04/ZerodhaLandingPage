@@ -59,7 +59,7 @@ header {
 }
 
 .text-heading {
-  margin-top: 65px;
+  margin-top: 70px;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -77,12 +77,12 @@ header {
 }
 
 .button {
-  margin-top: 35px;
+  margin-top: 45px;
   display: flex;
-  padding-left: 50px;
+  padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 50px;
+  padding-right: 40px;
   justify-self: center;
   border-radius: 3px;
   align-items: center;
