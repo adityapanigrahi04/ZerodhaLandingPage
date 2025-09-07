@@ -16,12 +16,16 @@ a {
   text-decoration: none;
 }
 
-header {
+header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 13%;
   box-shadow: 2px 1px 2px #eee;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
 }
 
 .logo {
@@ -52,7 +56,7 @@ header {
 .landing-image {
   width: 744px;
   height: 313px;
-  margin-top: 70px;
+  margin-top: 150px;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -95,4 +99,78 @@ header {
   background-color: #000000;
   color: #ffffff;
   transition: 0.2s;
+}
+
+.ecosystem {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.eco-heading {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.first-heading {
+  font-size: 24px;
+  margin-top: 40px;
+  font-weight: 500;
+}
+.first-para {
+  margin-top: 10px;
+  font-size: 21px;
+  color: #443f3f;
+}
+
+.second-heading {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.second-para {
+  margin-top: 10px;
+  font-size: 21px;
+  color: #443f3f;
+}
+
+.third-heading {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.third-para {
+  margin-top: 10px;
+  font-size: 21px;
+  color: #443f3f;
+}
+
+.fourth-heading {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.fourth-para {
+  margin-top: 10px;
+  font-size: 21px;
+  color: #443f3f;
+}
+
+#aTag {
+  color: #0022ff;
+}
+#aTag:hover {
+  color: #000000;
+}
+
+.image-eco img {
+  height: 590px;
+  width: 605px;
+}
+
+.link-text {
+  font-size: 18px;
 }
