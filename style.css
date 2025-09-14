@@ -8,7 +8,7 @@
   color: #424242;
   font-family: "Inter", serif;
   font-weight: 400;
-  font-size: 17.2px;
+  font-size: 19.2px;
 }
 
 li,
@@ -30,7 +30,7 @@ header div {
 }
 
 .logo {
-  max-height: 17px;
+  max-height: 21px;
   cursor: pointer;
 }
 
@@ -41,7 +41,7 @@ header div {
   justify-items: center;
   align-items: center;
   justify-content: space-evenly;
-  gap: 40px;
+  gap: 65px;
 }
 
 .nav-links li {
@@ -49,25 +49,30 @@ header div {
   padding: 0px 20pxs;
 }
 
+.fa-solid {
+  color: #4d4b4b;
+  height: 12px;
+}
+
 .nav-links li a {
   transition: all 0.3s ease 0s;
 }
 
 .nav-links li a:hover {
-  color: #0088a9;
+  color: #096ad1;
 }
 
 .landing-image {
-  width: 744px;
-  height: 313px;
-  margin-top: 150px;
+  width: 790px;
+  height: 370px;
+  margin-top: 160px;
   display: flex;
   justify-self: center;
   align-items: center;
 }
 
 .text-heading {
-  margin-top: 70px;
+  margin-top: 80px;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -278,4 +283,32 @@ i {
   padding-bottom: 75px;
 }
 
+footer {
+  background-color: #f8fbff;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
 
+.footer-left p {
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #f8fbff;
+}
+
+.footer-left img {
+  height: 21px;
+  background-color: #f8fbff;
+}
+
+.footer-left {
+  background-color: #f8fbff;
+}
+
+.socials,
+a,
+i {
+  background-color: #f8fbff;
+}
