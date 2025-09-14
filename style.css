@@ -278,39 +278,4 @@ i {
   padding-bottom: 75px;
 }
 
-.footer-container {
-  margin-top: 0px;
-  background-color: #fbfbfb;
-  box-shadow: 2px 1px 2px #eee;
-}
 
-.footer-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 13%;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.logo {
-  max-height: 21px;
-  cursor: pointer;
-}
-
-.foot-titles {
-  list-style-type: none;
-  display: flex;
-  text-align: right;
-  justify-items: center;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 80px;
-}
-
-.foot-titles li {
-  display: inline-block;
-  padding: 0px 20pxs;
-  font-size: 23px;
-  font-weight: 500;
-}
